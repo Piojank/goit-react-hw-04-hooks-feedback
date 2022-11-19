@@ -1,0 +1,55 @@
+.Feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.Feedback__controls,
+.Statistics {
+    width: 300px;
+    padding: 15px;
+}
+
+.Feedback__controls {
+    border: 1px solid black;
+}
+
+.Feedback__controls>button {
+    border: none;
+    padding: 10px 15px;
+    background-color: aquamarine;
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+    transition: background-color 250ms linear;
+}
+
+.Feedback__controls>button:active {
+    background-color: green;
+    color: #fff;
+}
+
+.Statistics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.Statistics__value {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: left;
+}
