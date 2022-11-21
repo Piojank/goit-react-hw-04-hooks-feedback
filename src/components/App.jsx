@@ -35,7 +35,7 @@ export const App = () => {
         if (countTotalFeedback())
         return Math.floor((good * 100) / countTotalFeedback());
         return 0;
-  };
+    };
 
     return (
         <div className="Feedback">
