@@ -29,7 +29,7 @@ export const App = () => {
             
             default:
                 alert('Error!');
-        };
+        }
     };
 
     const countTotalFeedback = () => {
@@ -51,7 +51,7 @@ export const App = () => {
                 />
             </Section>
             <Section title="Statistics">
-                {this.countTotalFeedback() > 0 ? (
+                {countTotalFeedback() > 0 ? (
                     <Statistics
                         good={good}
                         neutral={neutral}
