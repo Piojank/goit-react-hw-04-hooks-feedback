@@ -5,17 +5,15 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <div>
             {options.map(option => (
-            
-                    <button 
-                        type="button"
-                        onClick={onLeaveFeedback}
-                        key={option}
-                        name={option}
-                        className={s.btn}
-                        >
-                        {option}
-                    </button>
-                
+                <button 
+                    type="button"
+                    onClick={onLeaveFeedback}
+                    key={option}
+                    name={option}
+                    className={s.btn}
+                    >
+                    {option}
+                </button>
             ))}
         </div>
     );
